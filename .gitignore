@@ -1,0 +1,24 @@
+# Датасеты (лежат в Google Drive) и другие возможные датасеты
+
+dst-3.0_16_1_hh_database.csv
+ExchangeRates.csv
+*.csv
+
+# Jupyter чекпойнты
+
+.ipynb_checkpoints/
+
+# Python файлы
+
+__pycache__/
+
+
+# Виртуальное окружение
+
+.venv
+.VENV
+venv
+VENV
+
+
+
