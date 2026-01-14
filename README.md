@@ -25,9 +25,7 @@ jupyter lab
 GitHub не отображает интерактивные графики Plotly. В проекте предусмотрено сохранение интерактивных графиков в HTML.
 
 - Папка: `plotly_html/`
-- Файлы:
-  - `plotly_html/median_salary_by_gender.html`
-  - `plotly_html/median_salary_by_remote.html`
 
 После выполнения ноутбука эти файлы доступны и открываются локально в браузере.
+
 
