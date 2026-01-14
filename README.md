@@ -1,0 +1,33 @@
+# Питон-анализ резюме HeadHunter
+
+Проект: исследование структуры, преобразование, EDA и очистка данных резюме (HH.ru).
+
+## Данные
+Файлы данных **не хранятся в репозитории** (размер превышает лимит GitHub) и должны быть скачаны с Google Drive и помещены в корень проекта:
+
+- `dst-3.0_16_1_hh_database.csv` — ссылка: https://drive.google.com/file/d/1POEJ18HwM9ofs-QK5Zqyro2avG-UgYGn/view?usp=sharing
+- `ExchangeRates.csv` — ссылка: https://drive.google.com/file/d/1ppz_TvOSsySfKJeJfVFzkLjtcZxV8rcI/view?usp=sharing
+
+## Установка и запуск
+1) Создайте виртуальное окружение и установите зависимости:
+
+requirements.txt
+
+2) Скачайте два CSV из Google Drive и положите их в корень проекта (рядом с ноутбуком).
+
+3) Запустите Jupyter и выполните ноутбук:
+
+jupyter lab
+
+Откройте `Python_для_анализа_данных_Итоговыи_проект_Ноутбук_шаблон_финал.ipynb`, затем выполните **Restart & Run All** и сохраните ноутбук, чтобы результаты расчётов остались в файле.
+
+## Интерактивные графики (HTML)
+GitHub не отображает интерактивные графики Plotly. В проекте предусмотрено сохранение интерактивных графиков в HTML.
+
+- Папка: `plotly_html/`
+- Файлы:
+  - `plotly_html/median_salary_by_gender.html`
+  - `plotly_html/median_salary_by_remote.html`
+
+После выполнения ноутбука эти файлы доступны и открываются локально в браузере.
+
